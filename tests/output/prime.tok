@@ -1,0 +1,136 @@
+keyword int 1
+identifier checkPrimeNumber 1
+delimiter ( 1
+keyword int 1
+identifier n 1
+delimiter ) 1
+delimiter ; 1
+keyword int 2
+identifier main 2
+delimiter ( 2
+delimiter ) 2
+delimiter { 2
+keyword int 3
+identifier n1 3
+delimiter , 3
+identifier n2 3
+delimiter , 3
+identifier i 3
+delimiter , 3
+identifier flag 3
+delimiter ; 3
+identifier n1 5
+operator = 5
+integer literal 2 5
+Invalid Token found "."
+	In Line number: 5
+identifier n2 6
+operator = 6
+integer literal 5 6
+delimiter ; 6
+identifier printf 7
+delimiter ( 7
+string literal "Prime numbers between %d and %d are: " 7
+delimiter , 7
+identifier n1 7
+delimiter , 7
+identifier n2 7
+delimiter ) 7
+delimiter ; 7
+identifier i 8
+operator = 8
+identifier n1 8
+operator + 8
+integer literal 1 8
+delimiter ; 8
+keyword while 9
+delimiter ( 9
+identifier i 9
+operator < 9
+identifier n2 9
+delimiter ) 9
+delimiter { 9
+identifier flag 12
+operator = 12
+identifier checkPrimeNumber 12
+delimiter ( 12
+identifier i 12
+delimiter ) 12
+delimiter ; 12
+keyword if 14
+delimiter ( 14
+identifier flag 14
+operator == 14
+integer literal 1 14
+delimiter ) 14
+identifier printf 15
+delimiter ( 15
+string literal "%d " 15
+delimiter , 15
+identifier i 15
+delimiter ) 15
+delimiter ; 15
+identifier i 16
+operator = 16
+identifier i 16
+operator + 16
+integer literal 1 16
+delimiter ; 16
+delimiter } 17
+delimiter } 18
+keyword int 21
+identifier checkPrimeNumber 21
+delimiter ( 21
+keyword int 21
+identifier n 21
+delimiter ) 21
+delimiter { 21
+keyword int 22
+identifier j 22
+delimiter , 22
+identifier flag 22
+operator = 22
+integer literal 1 22
+delimiter ; 22
+identifier for 23
+delimiter ( 23
+identifier j 23
+operator = 23
+integer literal 2 23
+delimiter ; 23
+identifier j 23
+operator <= 23
+identifier n 23
+operator / 23
+integer literal 2 23
+delimiter ; 23
+identifier j 23
+operator = 23
+identifier j 23
+operator + 23
+integer literal 1 23
+delimiter ) 23
+delimiter { 23
+keyword if 24
+delimiter ( 24
+identifier n 24
+operator % 24
+identifier j 24
+operator == 24
+integer literal 0 24
+delimiter ) 24
+delimiter { 24
+identifier flag 25
+operator = 25
+integer literal 0 25
+delimiter ; 25
+identifier break 26
+delimiter ; 26
+delimiter } 27
+delimiter } 28
+identifier printf 30
+delimiter ( 30
+Bad terminator encountered: newline (\n)
+	In Line number: 30
+delimiter } 31
+EOF $ 32

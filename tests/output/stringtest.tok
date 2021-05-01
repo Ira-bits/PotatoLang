@@ -1,0 +1,17 @@
+identifier x 2
+operator = 2
+integer literal 2 2
+delimiter ; 2
+string literal "dgkgf\rfddf\nfdg\t gdf \"fg \\" 3
+Bad terminator encountered: newline (\n)
+	In Line number: 4
+Bad escape sequence "\
+"
+	In Line number: 5
+Bad terminator encountered: newline (\n)
+	In Line number: 5
+identifier x 6
+operator = 6
+integer literal 1 6
+delimiter ; 6
+EOF $ 6
